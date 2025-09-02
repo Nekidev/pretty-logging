@@ -2,7 +2,7 @@
 name = "pretty-logging"
 description = "A minimal and pretty logger for the log crate."
 edition = "2024"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Rafael Bradley"]
 license = "MIT"
 repository = "https://github.com/Nekidev/pretty-logging"
