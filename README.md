@@ -3,14 +3,16 @@ A minimal and pretty logger for the log crate.
 ```rs
 use log::LevelFilter;
 
-pretty_logging::init(LevelFilter::Trace, []);
-
-log::trace!("Hello world!");
-log::debug!("Hello world!");
-log::info!("Hello world!");
-log::warn!("Hello world!");
-log::error!("Hello world!");
-panic!("Hello world!");
+fn main() {
+    pretty_logging::init(LevelFilter::Trace, []);
+    
+    log::trace!("Hello world!");
+    log::debug!("Hello world!");
+    log::info!("Hello world!");
+    log::warn!("Hello world!");
+    log::error!("Hello world!");
+    panic!("Hello world!");
+}
 ```
 
 You'll see an output as follows:
