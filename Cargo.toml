@@ -1,5 +1,6 @@
 [package]
 name = "pretty-logging"
+description = "A minimal and pretty logger for the log crate."
 edition = "2024"
 version = "0.1.0"
 authors = ["Rafael Bradley"]
